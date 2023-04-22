@@ -97,7 +97,8 @@
         </nav>
         <div id="content-container">
             <div id="sidebar">
-                <p>This is a simple, responsive layout template for web mapping projects. It can save you some time scaffolding your project so you can focus on everything else.</p>
+                <p>This is a simple, responsive layout template for web mapping projects. It can save you some time
+                    scaffolding your project so you can focus on everything else.</p>
                 <p>It's fullscreen, and features a top nav, fixed-width sidebar, and main map area.</p>
                 <p>This sidebar will scroll if its content becomes longer than the map.</p>
                 <p>On mobile devices, the orientation of the sidebar and map containers changes to a column, with the
@@ -120,17 +121,7 @@
         </div>
     </div>
 
-    <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiY3dob25nIiwiYSI6IjAyYzIwYTJjYTVhMzUxZTVkMzdmYTQ2YzBmMTM0ZDAyIn0.owNd_Qa7Sw2neNJbK6zc1A';
-        const map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v12',
-            center: [-74.5, 40],
-            zoom: 2
-        });
-
-        map.addControl(new mapboxgl.NavigationControl());
-    </script>
+    <script src="js/scripts.js"></script>
 
 </body>
 
